@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title>personal portfoli website</title>
+</head>
+<body>
+    
+     <div id="hearder">
+        <div class="contenier">
+            <nav >
+                <ul id="sidmenu">
+                    <li><a href="#hearder">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+              </nav> 
+              <div class="hearder-text">
+                <p>Web Designer</p>
+                <h1>Hi I am <span>Sophia Jones</span><br> From Australia</h1>
+              </div>       
+            </div>
+        </div>
+     </div>
+
+      <div id="about">
+        <div class="contenier">
+            <div class="row">
+                <div class="about-col-1"> 
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p></p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/ App interfces</li>
+                        <li><span>Web Development</span><br> Web App development</li>
+                        <li><span>App Development</span><br>Builing android/ios App</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current </span><br>Design trainig at Et institute </li>
+                        <li><span>2020 - 2022</span><br> team lead ate start app llc</li>
+                        <li><span>App Development</span><br>Builing android/ios App</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/ App interfces</li>
+                        <li><span>Web Development</span><br> Web App development</li>
+                        <li><span>App Development</span><br>Builing android/ios App</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div id="services">
+        <div class="contenier">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <img src="flag.png" >
+                    <h2>Web Design</h2>
+                    <p>Web design refers to the design of websites that are displayed on the internet.</p>
+                    <a href="https://rockcontent.com/blog/web-design/">Learn More</a>
+                </div>
+                <div>
+                    <img src="pancel.png" >
+                    <h2>Ul/UX Design</h2>
+                    <p>UI refers to the screens, buttons, toggles, icons, and other visual elements that you interact with when using a website, app, or other electronic device. UX refers to the entire interaction you have with a product, including how you feel about the interaction</p>
+                    <a href="https://flatironschool.com/blog/what-is-ux-ui-design/">Learn More</a>
+                </div>
+                <div>
+                    <img src="grars.png" >
+                    <h2>App Design</h2>
+                    <p>App design combines the user interface (UI) and user experience (UX).</p>
+                    <a href="https://buildfire.com/tools-for-mobile-app-designers/">Learn More</a>
+                </div>
+
+            </div>
+
+        </div>
+     </div>
+        <div id="portfolio">
+            <div class="contenier">
+                <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Portfolio2.png" >
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>This app allows users to have conversations, share information and create web content</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                    <div class="work">
+                        <img src="Portfolio3.png" >
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p> It aims to create a simple yet fulfilling experience for music lovers by removing complex features. The use of dark elements gives the app design a modern and futuristic feel.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Portfolio4.png" >
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>which is designed to allow owners and customers to sell or buy product online without going into the website.The features that are included on the website have been incorporated into this APP.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                        
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+          <div id="contact">
+            <div class="contenier">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Us</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>sophia@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone-flip"></i>019632880</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form >
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="Email" name="Email" placeholder="Your Email" required>
+                            <textarea name="massage" rows="6" placeholder="Your Massage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+          </div>   
+          
+      </div>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+<script>
+    var sidmenu = document.getElementById("sidmenu");
+    function openmenu(){
+        sidmenu.style.right ="0";
+    }
+    function closemenu(){
+        sidmenu.style.right ="-200px";
+    }
+</script>
+</body>
+</html>
